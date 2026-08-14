@@ -1,0 +1,6 @@
+STAR	 --runMode genomeGenerate \
+	--genomeDir /home/bio3815/final_project/star_index \
+	--genomeFastaFiles /home/bio3815/final_project/mm39.fa  \
+	--sjdbGTFfile /home/bio3815/final_project/refGene.gtf  \
+	--sjdbOverhang 149 \
+	--runThreadN 2
